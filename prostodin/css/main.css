@@ -1,0 +1,301 @@
+body {
+	 width: 100%;
+	 height: 100%;
+	 margin: 0;
+}
+.clear {
+	clear: both;
+}
+.wrap {
+	background: url(../img/background_1000px.png) no-repeat top center;
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	display: block;
+	
+}
+.header {
+	height: 70px;
+	width: 100%;
+	height: 70px;
+	background-color: #333;
+	opacity: 0.8;
+}
+.container {
+	max-width: 980px;
+	margin: 0 auto;
+	height: 100%;
+	padding: 10px 0 0 0;
+}
+.header ul.top_line {
+	height: 100%;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	vertical-align: middle;
+}
+.header ul.top_line li{
+	display: inline-block;
+}
+.header ul.top_line .logo {
+	width: 203px;
+	height: 59px;
+	margin-right: 120px;
+}
+.header ul.top_line .logo a{
+	background: url(../img/AlthaiFarmLogo.png) no-repeat top center;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.top_line_item  {
+	vertical-align: top;
+}
+.top_line_item .item_img {
+	float: left;
+	margin-right: 5px;
+}
+.top_line_item .item_text {
+	float: right;
+	color: #fff;
+	line-height: 18px;
+	font-family: SegoeUI;
+	font-size: 16px;
+	font-weight: 500;
+}
+.top_line_item .item_text span {
+	font-size: 15px;
+	font-weight: 400;
+}
+.top_line_item .button {
+	width: 244px;
+	height: 16px;
+	color: #a1cc1b;
+	font-family: "Segoe UI";
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 43px;
+	text-transform: uppercase;
+	border: 1px solid white;
+	border-radius: 3px;
+	padding: 12px;
+}
+.top_line li:last-child {
+	float: right;
+}
+.main_section h1 {
+	text-align: center;
+	font-family: "SegoeUI";
+	font-size: 66px;
+	font-weight: 700;
+	line-height: 52px;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.main_section h3 {
+	text-align: center;
+	font-family: "SegoeUI";
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 40px;
+	color: #fff;
+	margin-top: 7px;
+	margin-bottom: 20px;
+}
+.info_box {
+	margin-top: 30px;
+}
+.hint {
+	display: block;
+	margin-bottom: 10px;
+	min-height: 70px;
+}
+.hint .hint_img {
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	width: 55px;
+}
+.hint .hint_text {
+	
+	display: inline-block;
+	color: #fff;
+	color: white;
+	width: 240px;
+	font-family: SegoeUI;
+	font-size: 19px;
+	font-weight: 600;
+	line-height: 22px;
+	margin-left: 25px;
+	vertical-align: middle;
+}
+.clear {
+	clear: both;
+}
+
+.main_img {
+	display: block;
+	height: 501px;
+	width: 300px;
+	background: url(../img/main_img.png) no-repeat center;
+	margin-left: -80px;
+}
+.form {
+	width: 305px;
+	height: 446px;
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 10px;
+	position: relative;
+	padding: 5px;
+}
+
+.main_section .form p {
+	margin: 0;
+	color: #fff;
+	font-family: SegoeUI;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 16px;
+	opacity: 1;
+}
+.form_top_line {
+	padding-top: 4px;
+}
+.form_top_line p.quantity {
+	color: #ffde00;
+	font-family: SegoeUI;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 22px;
+	position: absolute;
+    right: 6px;
+    top: 4px;
+}
+.form p.separator {
+	color: #ffde00;
+	font-family: SegoeUI;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 22px;
+	letter-spacing: 3.3px;
+	margin-bottom: 8px;
+    margin-top: -8px;
+}
+.discount {
+	margin-bottom: 10px;
+}
+.discount p {
+	font-size: 14px;
+	font-weight: 400;
+}
+.discount .left {
+	text-align: center;
+}
+.discount .gold {
+	color: #ffde00;
+	font-family: "Segoe UI";
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 22px;
+	text-transform: uppercase;
+}
+.discount .crossed {
+	font-size: 26px;
+	font-weight: 700;
+	text-decoration: line-through;
+}
+.discount .currensy {
+	font-size: 17px;
+	font-weight: 700;
+}
+.discount .left,
+.discount .right {
+	display: inline-block;
+}
+
+.discount .right {
+	float: right;
+	margin-top: -62px;
+}
+.timer {
+	display: block;
+	min-height: 90px;
+	background: url(../img/border.png) no-repeat 0 8px;
+}
+.timer p {
+	color: white;
+	font-family: SegoeUI;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 40px;
+	text-align: center;
+}
+.timer_count p.timer_number {
+	text-align: center;
+	margin-top: 8px;
+}
+.number {
+	display: inline-block;
+	width: 27px;
+	height: 41px;
+	background-color: #515151;
+	background-image: linear-gradient(to top, #090909 0%, #3f3f3f 100%);
+	border: 1px solid white;
+	border-radius: 3px;
+	vertical-align: middle;
+	font-family: SegoeUI;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 32px;
+}
+.under_timer_text {
+	text-align: center;
+
+}
+.under_number {
+	color: #fff;
+	font-family: "Segoe UI";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 33px;
+}
+.under_timer_text .under_number:nth-child(2) {
+	margin: 0 30px;
+}
+.form_information label {
+	font-family: "Segoe UI";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 32px;
+	color: #fff;
+}
+.form_information input {
+	width: 286px;
+	height: 36px;
+	background-color: white;
+	border-radius: 3px;
+}
+.form a.button {
+	display: block;
+	width: 288px;
+	height: 65px;
+	background-color: red;
+	border-radius: 3px;
+	color: white;
+	font-family: "Segoe UI";
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: middle;
+
+	/* Выравнивание по вертикали
+
+	
+	/*position: relative;
+	top: 50%;
+	transform: translateY(-50%);*/
+}
