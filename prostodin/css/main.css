@@ -7,7 +7,7 @@ body {
     clear: both;
 }
 .wrap {
-    background: url(../img/background_1000px.png) no-repeat top center;
+    background: url(../img/background_1000px.png) no-repeat top center #000;
     width: 100%;
     height: auto;
     min-height: 100%;
