@@ -1,76 +1,185 @@
 /*==========  Desktop First Method  ==========*/
-
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
 
-}
-
+@media only screen and (max-width: 1200px) {}
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
 
+@media only screen and (max-width: 992px) {
+    /*.container {
+		width: 950px; 
+	}*/
+    
+    .header ul.top_line li.info {
+        display: none;
+    }
+    .header ul.top_line .logo {
+        margin-right: 80px;
+    }
+    .main_section h1 {
+        font-size: 62px;
+    }
 }
-
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-	
-	/*Disable Animation on Mobile Devices*/
-	.animated {
-		/*CSS transitions*/
-		-o-transition-property: none !important;
-		-moz-transition-property: none !important;
-		-ms-transition-property: none !important;
-		-webkit-transition-property: none !important;
-		transition-property: none !important;
-		/*CSS transforms*/
-		-o-transform: none !important;
-		-moz-transform: none !important;
-		-ms-transform: none !important;
-		-webkit-transform: none !important;
-		transform: none !important;
-		/*CSS animations*/
-		-webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-	}
 
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-
-}
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-
-}
-
-
-/*==========  Mobile First Method  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
-}
+@media only screen and (max-width: 768px) {
+    .wrap {
+        background: url(../img/background_480px.jpg) no-repeat top center;
+        min-height: 1772px;
+    }
+    .header {
+        height: 64px;
+    }
+    .header ul.top_line li.info {
+        display: none;
+    }
+    .container {
+        width: 460px;
+    }
+    .header ul.top_line .logo {
+        margin-right: 0px;
+    }
+    .top_line_item .button {
+        width: 215px;
+        height: 14px;
+        font-size: 13px;
+        line-height: 38px;
+    }
+    .main_section h1 {
+        font-size: 58px;
+        line-height: 48px;
+    }
+    .main_section h3 {
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom: -10px;
+    }
+    .hint .hint_text {
+        font-size: 23px;
+        line-height: 27px;
+    }
+    .main_img {
+        height: 515px;
+        margin-left: 50px;
+        width: 300px;
+        margin-bottom: -96px;
+    }
+    .form {
+        margin: 0 auto;
+    }
+    /* Extra Small Devices, Phones */
+    
+    @media only screen and (max-width: 480px) {
+        .wrap {
+            background: url(../img/background_240px.jpg) no-repeat top center;
+            min-height: 1574px;
+        }
+        .top_line_item .button {
+            display: none;
+        }
+        .container {
+            width: 230px;
+        }
+        .main_section h1 {
+            font-size: 35px;
+            line-height: 38px;
+        }
+        .main_section h3 {
+            font-size: 19px;
+            line-height: 26px;
+        }
+        .hint .hint_text {
+            font-size: 16px;
+            line-height: 22px;
+            word-wrap: break-word;
+            width: 140px;
+        }
+        .main_img {
+            display: block;
+            height: 335px;
+            width: 300px;
+            background: url(../img/main_img_small.png) no-repeat center;
+            margin-left: -80px;
+            height: 340px;
+            margin-bottom: -100px;
+        }
+        .info_box {
+            margin-top: 0px;
+        }
+        .col-xs-12 {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .form {
+            width: 230px;
+        }
+        .main_section .form .form_top_line p {
+            font-size: 16px;
+            line-height: 18px;
+        }
+        .form p.separator {
+            margin-top: 12px;
+            overflow: hidden;
+        }
+        .main_section .form .form_top_line p.quantity {
+            font-size: 31px;
+            line-height: 28px;
+            top: 50px;
+        }
+        .discount .left,
+        .discount .right,
+        .discount .left,
+        .discount .left {
+            display: block;
+        }
+        .discount .left,
+        .discount .right {
+            margin-top: 0px;
+            float: none;
+            margin: 5px 42px;
+        }
+        .timer {
+            background: none;
+        }
+        .form {
+            margin-top: -20px;
+        }
+        .form_information {
+            margin-top: -8px;
+        }
+        .form_information input {
+            width: 200px;
+        }
+        .form .button {
+            height: 84px;
+            width: 206px;
+        }
+        .form .button a {
+            font-size: 28px;
+            line-height: 31px;
+        }
+        .number {
+            width: 25px;
+            height: 39px;
+            font-size: 28px;
+            line-height: 30px;
+        }
+    }
+    /* Custom, iPhone Retina */
+    
+    @media only screen and (max-width: 320px) {}
+    /*==========  Mobile First Method  ==========*/
+    /* Custom, iPhone Retina */
+    
+    @media only screen and (min-width: 320px) {}
+    /* Extra Small Devices, Phones */
+    
+    @media only screen and (min-width: 480px) {}
+    /* Small Devices, Tablets */
+    
+    @media only screen and (min-width: 768px) {}
+    /* Medium Devices, Desktops */
+    
+    @media only screen and (min-width: 992px) {}
+    /* Large Devices, Wide Screens */
+    
+    @media only screen and (min-width: 1200px) {}

@@ -1,29 +1,21 @@
 @font-face {
-	font-family: 'SegoeUI';
-	src: url('../fonts/SegoeUI/SegoeUI.eot');
-	src: url('../fonts/SegoeUI/SegoeUI.woff') format('woff'), 
-			url('../fonts/SegoeUI/SegoeUI.ttf') format('truetype'), 
-			url('../fonts/SegoeUI/SegoeUI.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'SegoeUI';
+    src: url('../fonts/SegoeUI/SegoeUI.eot');
+    src: url('../fonts/SegoeUI/SegoeUI.woff') format('woff'), url('../fonts/SegoeUI/SegoeUI.ttf') format('truetype'), url('../fonts/SegoeUI/SegoeUI.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
-
 @font-face {
-	font-family: 'SegoeUI-Bold';
-	src: url('../fonts/SegoeUI-Bold/SegoeUI-Bold.eot');
-	src: url('../fonts/SegoeUI-Bold/SegoeUI-Bold.woff') format('woff'),
-		 url('../fonts/SegoeUI-Bold/SegoeUI-Bold.ttf') format('truetype'),
-		 url('../fonts/SegoeUI-Bold/SegoeUI-Bold.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'SegoeUI-Bold';
+    src: url('../fonts/SegoeUI-Bold/SegoeUI-Bold.eot');
+    src: url('../fonts/SegoeUI-Bold/SegoeUI-Bold.woff') format('woff'), url('../fonts/SegoeUI-Bold/SegoeUI-Bold.ttf') format('truetype'), url('../fonts/SegoeUI-Bold/SegoeUI-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
-
 @font-face {
-	font-family: 'SegoeUI-SemiBold';
-	src: url('../fonts/SegoeUI-SemiBold/SegoeUI-SemiBold.eot');
-	src: url('../fonts/SegoeUI-SemiBold/SegoeUI-SemiBold.woff') format('woff'),
-		 url('../fonts/SegoeUI-SemiBold/SegoeUI-SemiBold.ttf') format('truetype'), 
-		 url('../fonts/SegoeUI-SemiBold/SegoeUI-SemiBold.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'SegoeUI-SemiBold';
+    src: url('../fonts/SegoeUI-SemiBold/SegoeUI-SemiBold.eot');
+    src: url('../fonts/SegoeUI-SemiBold/SegoeUI-SemiBold.woff') format('woff'), url('../fonts/SegoeUI-SemiBold/SegoeUI-SemiBold.ttf') format('truetype'), url('../fonts/SegoeUI-SemiBold/SegoeUI-SemiBold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
