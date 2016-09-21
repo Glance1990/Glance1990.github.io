@@ -1,0 +1,52 @@
+@font-face {
+	font-family: "circeBold";
+	src: url("../fonts/circeBold/circeBold.eot");
+	src: url("../fonts/circeBold/circeBold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/circeBold/circeBold.woff") format("woff"),
+			 url("../fonts/circeBold/circeBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "palaceScriptMt";
+	src: url("../fonts/palaceScriptMt/palaceScriptMt.eot");
+	src: url("../fonts/palaceScriptMt/palaceScriptMt.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/palaceScriptMt/palaceScriptMt.woff") format("woff"),
+			 url("../fonts/palaceScriptMt/palaceScriptMt.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "ptSansBold";
+	src: url("../fonts/ptSansBold/ptSansBold.eot");
+	src: url("../fonts/ptSansBold/ptSansBold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/ptSansBold/ptSansBold.woff") format("woff"),
+			 url("../fonts/ptSansBold/ptSansBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "ptSansRegular";
+	src: url("../fonts/ptSansRegular/ptSansRegular.eot");
+	src: url("../fonts/ptSansRegular/ptSansRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/ptSansRegular/ptSansRegular.woff") format("woff"),
+			 url("../fonts/ptSansRegular/ptSansRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "rockwellCondensed";
+	src: url("../fonts/rockwellCondensed/rockwellCondensed.eot");
+	src: url("../fonts/rockwellCondensed/rockwellCondensed.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/rockwellCondensed/rockwellCondensed.woff") format("woff"),
+			 url("../fonts/rockwellCondensed/rockwellCondensed.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'rockwellCondensed';
+	src: url('../fonts/rockwellCondensed.eot');
+	src: local('../fonts/rockwellCondensed'), url('../fonts/rockwellCondensed.woff') format('woff'), url('../fonts/rockwellCondensed.ttf') format('truetype'), url('../fonts/rockwellCondensed.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
