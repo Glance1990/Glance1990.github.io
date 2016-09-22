@@ -1,414 +1,373 @@
 /*==========  Desktop First Method  ==========*/
-
 /* Large Devices, Wide Screens */
 
-
-@media only screen and (max-width : 1674px) {
-	section.why .life_before_after .container-fluid {
-	padding-left: 59px;
-}
-}
-
-
-
-@media only screen and (max-width : 1366px) and (min-width: 1200px) {
-	section.info .container .graph .col-lg-6 {
-		width: 51%;
-		margin-left: 250px;
-	}
-}	
-
-
-
-@media only screen and (max-width : 1200px) {
-	section.info .container {
-		max-width: 713px;
-	}
-	section.info .container .graph .text {
-		margin-bottom: 40px;
-	}
-	section.info .why_couch_comment .text {
-		margin-bottom: 40px;
-	}
-	
-	section.facts .facts_diagram .center {
-    font-family: "ptSansRegular";
-    left: 250px;
-    position: absolute;
-    text-align: center;
-    top: 432px;
-}
-section.facts .facts_diagram .item_1 {
-    left: -25px;
-    text-align: right;
-    top: 227px;
-}
-section.facts .facts_diagram .item_2 {
-    left: 412px;
-    text-align: right;
-    top: 227px;
-}
-section.facts .facts_diagram .item_3 {
-    left: 477px;
-    text-align: right;
-    top: 440px;
-}
-section.facts .facts_diagram .item_4 {
-    bottom: 0;
-    left: 425px;
-    text-align: right;
-}
-section.facts .facts_diagram .item_5 {
-    bottom: 0;
-    left: 24px;
-    text-align: right;
-}
-section.facts .facts_diagram .item_6 {
-    left: -120px;
-    text-align: right;
-    top: 433px;
-}
-
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
-	section.benefits .container {
-    height: 1680px;
-
-}
-	section.benefits .results {
-		display: none;
-	}
-	section.benefits .results_small {
-		display: block;
-		width: 500px;
-		margin: 0 auto;
-	}
-	section.benefits .results_small .results_small_item {
-		display: block;
-		height: 200px;
-		width: 100%;
-		margin-bottom: 20px;
-	}
-	section.benefits .results_small .item_img {
-		display: inline-block;
-		float: left;
-	
-	}
-	section.benefits .results_small .item_text {
-		display: inline-block;
-		float: right;
-		position: relative;
-		top: 50%;
-		transform: translateY(-50%);
-		font-family: "ptSansBold";
-		font-size: 23px;
-		line-height: 30px;
-		color: #636363;
-		word-wrap: break-word;
-		width: 200px;
-		text-align: left;
-	}
-	section.who_are_we .video {
-		background: none;
-	}
-	section.who_are_we .video iframe {
-
-	}
-	section.start .wraper .profit_list.img {
-		min-width: 300px;
-	}
-	section.start .wraper img {
-	margin: 0 auto;
-
-}
-
-
-	
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-	
-
-}
-
-@media only screen and (max-width : 640px) {
-
-	.button {
-		width: 270px;
-		height: 70px;
-	}
-	.button a {
-		font-size: 30px;
-	}
-	.spliter {
-	display: block;
-	height: 160px;
-	text-align: center;
-	background: url(../img/a_Spliter.png) no-repeat center center;
-	padding-top: 20px;
-}
-.spliter h6 {
-	color: #fefefe;
-	font-family: "ptSansBold";
-	font-size: 20px;
-	line-height: 22px;
-}
-
-	.main_section .header {
-		height: 120px;
-		padding-left: 10px;
-		padding-right: 10px;
-		padding-top: 10px;
-	}
-
-	.header .logo {
-		width: 200px;
-		top: 0;
-    	transform: none;
-	}
-	.header .logo img {
-		max-width: 100%;
-	}
-	.header .top_phone {
-		top: 0;
-    	transform: none;
-	}
-
-	.header .top_phone .phone_img {
-		display: none;
-	}
-
-	.main_section .main_content .promo_text {
-		margin-top: 80px;
-		margin-bottom: 40px
-	}
-	.main_section .main_content {
-    
-    height: 850px;
-}
-	.main_section .main_content .promo_text h3.first_line {
-	color: #464646;
-	font-size: 24px;
-	line-height: 25px;
-}
-	h4.second_line {
-		font-size: 24px;
-		line-height: 30px;
-		word-wrap: normal;
-	}
-	h4.second_line span {
-		padding: 0px 10px;
-
-	}
-	h3.third_line {
-		font-size: 26px;
-		line-height: 35px;
-	}
-	h5.forth_line {
-		font-size: 19px;
-		line-height: 30px;
-	}
-	h5.sixth_line {
-		font-size: 19px;
-		line-height: 30px;
-	}
-	h3.seventh_line {
-		font-size: 22px;
-		line-height: 35px;
-	}
-	h2 {
-		font-size: 35px;
-    	line-height: 40px;
-	}
-	.main_section .main_content .summer_proposal {
-		width: 300px;
-		height: 180px;
-		
-	}
-	.main_section .main_content .summer_proposal p {
-		top: 32%;
-	}
-
-	section.info .container {
-		max-width: 320px;
-	}
-	section.info h2 {
-		font-size: 27px;
-    	line-height: 30px;
-	}
-	section.info .graph h4 {
-    font-size: 23px;
-    line-height: 30px;
-    margin-bottom: 15px;
- 	}
- 	section.info .graph .small {
-    font-size: 19px;
-    line-height: 24px;
-	}
-	section.info .graph p {
-    color: #363636;
-    font-family: "ptSansRegular";
-    font-size: 18px;
-    line-height: 20px;
-}
-section.info .graph p.curly_brace::before {
-    left: -48px;
-}
-section.info .graph p.curly_brace::after {
-    right: -48px;
-}
-section.info .graph .chart {
-	width: 290px;
-}
-section.info .graph .chart img {
-	max-width: 100%;
-}
-section.info .graph {
-    margin-bottom: -40px;
-}
-
-
-section.info .why_couch_comment .text h4 {
-    font-size: 20px;
-    line-height: 25px;
-}
-section.info .why_couch_comment .text h6 {
-	font-size: 14px;
-    line-height: 34px;
-}
-section.info .why_couch_comment .img span {
-	display: none;
-}
-section.info .why_couch_comment_quote .container .text p {
-    font-size: 18px;
-    line-height: 20px;
-}
-
-section.who_are_we .text ul li {
-    font-size: 20px;
-    line-height: 25px;
-    margin-left: 27px;
-}
-section.who_are_we .text h2 {
-    font-size: 29px;
-    line-height: 23px;
-}
-section.who_are_we .text {
-    margin: 107px auto 10px;
-}
-section.who_are_we .video {
-    height: 300px;
-}
-section.facts .facts_diagram {
-	display: none;
-}
-section.facts .img {
-	display: block;
-	margin: 180px auto 20px;
-}
-section.facts img {
-	width: 100%;
-}
-section.facts .wrap {
-	max-height: 596px;
-}
-
-section.warranty .five_principles .numbers {
-	margin-bottom: 30px;
-}
-
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-	section.benefits .container {
-    height: 1120px;
-
-}
-	section.benefits .results_small {
-    width: 400px;
-}
-	section.benefits .results_small .results_small_item {
-		height: 100px;
-		width: 80%;
-	}
-	section.benefits .results_small .item_img {
-		float: left;
-		width: 100px;
-		height: 100px;
-	}
-	section.benefits .results_small .item_img img {
-		width: 100%;
-	}
-	section.benefits .results_small .item_text {
-    font-size: 13px;
-    line-height: 15px;
-    width: 150px;
-    word-wrap: break-word;
-}
-section.facts .wrap {
-    max-height: 422px;
-}
-section.start .wraper .profit_list.img {
-		min-width: 300px;
-	}
-	section.start .wraper img {
-	margin: 0 auto;
-	width: 100%;
-	
-}
-section.profit.start .registartion .summer_proposal p.small {
-    margin-left: 0px;
-}
-section.profit.start .registartion .under_button_text {
-    margin-left: 0px;
-    margin-bottom: 20px;
+@media only screen and (max-width: 1674px) {
+    section.why .life_before_after .before {
+        padding-left: 15px;
     }
-
-    section.warranty .we_warranty .container-fluid {
-	max-width: 920px;
-	padding-top: 70px;
-	padding-bottom: 60px;
-} 
-
-
-	
 }
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-
+@media only screen and (max-width: 1366px) and (min-width: 1200px) {
+    section.info .container .graph .col-lg-6 {
+        width: 51%;
+        margin-left: 250px;
+    }
 }
-
-
-/*==========  Mobile First Method  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-
+@media only screen and (max-width: 1200px) {
+    section.info .container {
+        max-width: 713px;
+    }
+    section.info .container .graph .text {
+        margin-bottom: 40px;
+    }
+    section.info .why_couch_comment .text {
+        margin-bottom: 40px;
+    }
+    section.facts .facts_diagram .center {
+        font-family: "ptSansRegular";
+        left: 250px;
+        position: absolute;
+        text-align: center;
+        top: 432px;
+    }
+    section.facts .facts_diagram .item_1 {
+        left: -25px;
+        text-align: right;
+        top: 227px;
+    }
+    section.facts .facts_diagram .item_2 {
+        left: 412px;
+        text-align: right;
+        top: 227px;
+    }
+    section.facts .facts_diagram .item_3 {
+        left: 477px;
+        text-align: right;
+        top: 440px;
+    }
+    section.facts .facts_diagram .item_4 {
+        bottom: 0;
+        left: 425px;
+        text-align: right;
+    }
+    section.facts .facts_diagram .item_5 {
+        bottom: 0;
+        left: 24px;
+        text-align: right;
+    }
+    section.facts .facts_diagram .item_6 {
+        left: -120px;
+        text-align: right;
+        top: 433px;
+    }
 }
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-
-}
-
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
 
+@media only screen and (max-width: 992px) {
+    section.benefits .container {
+        height: 1680px;
+    }
+    section.benefits .results {
+        display: none;
+    }
+    section.benefits .results_small {
+        display: block;
+        width: 500px;
+        margin: 0 auto;
+    }
+    section.benefits .results_small .results_small_item {
+        display: block;
+        height: 200px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    section.benefits .results_small .item_img {
+        display: inline-block;
+        float: left;
+    }
+    section.benefits .results_small .item_text {
+        display: inline-block;
+        float: right;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        font-family: "ptSansBold";
+        font-size: 23px;
+        line-height: 30px;
+        color: #636363;
+        word-wrap: break-word;
+        width: 200px;
+        text-align: left;
+    }
+    section.who_are_we .video {
+        background: none;
+    }
+    section.who_are_we .video iframe {} section.start .wraper .profit_list.img {
+        min-width: 300px;
+    }
+    section.start .wraper img {
+        margin: 0 auto;
+    }
 }
+/* Small Devices, Tablets */
 
+@media only screen and (max-width: 768px) {
+    section.why .after h2 {
+        padding-top: 80px;
+        margin-top: 0px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .button {
+        width: 270px;
+        height: 70px;
+    }
+    .button a {
+        font-size: 30px;
+    }
+    .spliter {
+        display: block;
+        height: 160px;
+        text-align: center;
+        background: url(../img/a_Spliter.png) no-repeat center center;
+        padding-top: 20px;
+    }
+    .spliter h6 {
+        color: #fefefe;
+        font-family: "ptSansBold";
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .main_section .header {
+        height: 120px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+    .header .logo {
+        width: 200px;
+        top: 0;
+        transform: none;
+    }
+    .header .logo img {
+        max-width: 100%;
+    }
+    .header .top_phone {
+        top: 0;
+        transform: none;
+    }
+    .header .top_phone .phone_img {
+        display: none;
+    }
+    .main_section .main_content .promo_text {
+        margin-top: 80px;
+        margin-bottom: 40px
+    }
+    .main_section .main_content {
+        height: 850px;
+    }
+    .main_section .main_content .promo_text h3.first_line {
+        color: #464646;
+        font-size: 24px;
+        line-height: 25px;
+    }
+    h4.second_line {
+        font-size: 24px;
+        line-height: 30px;
+        word-wrap: normal;
+    }
+    h4.second_line span {
+        padding: 0px 10px;
+    }
+    h3.third_line {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    h5.forth_line {
+        font-size: 19px;
+        line-height: 30px;
+    }
+    h5.sixth_line {
+        font-size: 19px;
+        line-height: 30px;
+    }
+    h3.seventh_line {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .main_section .main_content .summer_proposal {
+        width: 300px;
+        height: 180px;
+    }
+    .main_section .main_content .summer_proposal p {
+        top: 32%;
+    }
+    section.info .container {
+        max-width: 320px;
+    }
+    section.info h2 {
+        font-size: 27px;
+        line-height: 30px;
+    }
+    section.info .graph h4 {
+        font-size: 23px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    section.info .graph .small {
+        font-size: 19px;
+        line-height: 24px;
+    }
+    section.info .graph p {
+        color: #363636;
+        font-family: "ptSansRegular";
+        font-size: 18px;
+        line-height: 20px;
+    }
+    section.info .graph p.curly_brace::before {
+        left: -48px;
+    }
+    section.info .graph p.curly_brace::after {
+        right: -48px;
+    }
+    section.info .graph .chart {
+        width: 290px;
+    }
+    section.info .graph .chart img {
+        max-width: 100%;
+    }
+    section.info .graph {
+        margin-bottom: -40px;
+    }
+    section.info .why_couch_comment .text h4 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    section.info .why_couch_comment .text h6 {
+        font-size: 14px;
+        line-height: 34px;
+    }
+    section.info .why_couch_comment .img span {
+        display: none;
+    }
+    section.info .why_couch_comment_quote .container .text p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    section.who_are_we .text ul li {
+        font-size: 20px;
+        line-height: 25px;
+        margin-left: 27px;
+    }
+    section.who_are_we .text h2 {
+        font-size: 29px;
+        line-height: 23px;
+    }
+    section.who_are_we .text {
+        margin: 107px auto 10px;
+    }
+    section.who_are_we .video {
+        height: 300px;
+    }
+    section.facts .facts_diagram {
+        display: none;
+    }
+    section.facts .img {
+        display: block;
+        margin: 180px auto 20px;
+    }
+    section.facts img {
+        width: 100%;
+    }
+    section.facts .wrap {
+        max-height: 596px;
+    }
+    section.warranty .five_principles .numbers {
+        margin-bottom: 30px;
+    }
+}
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    section.benefits .container {
+        height: 1120px;
+    }
+    section.benefits .results_small {
+        width: 400px;
+    }
+    section.benefits .results_small .results_small_item {
+        height: 100px;
+        width: 80%;
+    }
+    section.benefits .results_small .item_img {
+        float: left;
+        width: 100px;
+        height: 100px;
+    }
+    section.benefits .results_small .item_img img {
+        width: 100%;
+    }
+    section.benefits .results_small .item_text {
+        font-size: 13px;
+        line-height: 15px;
+        width: 150px;
+        word-wrap: break-word;
+    }
+    section.facts .wrap {
+        max-height: 422px;
+    }
+    section.start .wraper .profit_list.img {
+        min-width: 300px;
+    }
+    section.start .wraper img {
+        margin: 0 auto;
+        width: 100%;
+    }
+    section.profit.start .registartion .summer_proposal p.small {
+        margin-left: 0px;
+    }
+    section.profit.start .registartion .under_button_text {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    section.warranty .we_warranty .container-fluid {
+        max-width: 920px;
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+    section.why .why_now .text {
+        font-size: 20px;
+        line-height: 33px;
+        margin: 20px auto -60px;
+        max-width: 770px;
+        position: relative;
+    }
+    section.why .why_now .text p {
+        font-size: 20px;
+    }
+    section.why .why_now {
+        padding-top: 60px;
+    }
+}
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {}
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {}
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {}
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
 
-}
+@media only screen and (min-width: 1200px) {}

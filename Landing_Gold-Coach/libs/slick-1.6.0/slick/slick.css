@@ -21,13 +21,27 @@
     transform: scale(1.38);
 }
 
-.slick-track .slick-active .text  {
-    display: block;
-}
-
-.slick-slide.slick-current .text {
+.slick-track .slick-slide .text {
     display: none;
 }
+.our_spesialists .responsive {
+    margin-bottom: 50px;
+    margin-left: 0;
+    margin-top: -90px;
+}
+.our_spesialists .responsive .slick-list {
+    margin-left: 40px;
+}
+button.slick-prev::before {
+
+}
+/*.slick-slide.slick-current .text {
+    display: block;
+}*/
+
+/*.slick-track .slick-active:nth-child(3) .text {
+    display: block;
+}*/
 .slick-list
 {
     position: relative;
