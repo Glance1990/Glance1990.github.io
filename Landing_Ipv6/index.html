@@ -20,6 +20,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/jquery-ui-1.12.1.custom/jquery-ui.min.css">
 	
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fonts.css">
@@ -41,6 +42,7 @@
 
 		<section class="top">
 			<div class="nav">
+				<a id="top"></a>
 				<div class="container-fluid">
 					<div class="col-sm-3 col-xs-12">
 						<div class="logo">
@@ -49,10 +51,10 @@
 					</div>
 					<div class="col-sm-9 col-xs-12">
 						<ul>
-							<li><a href="#">ЧТО ТАКОЕ</a></li>
-							<li><a href="#">ТАРИФЫ</a></li>
-							<li><a href="#">FAQ</a></li>
-							<li><a href="#">КОНТАКТЫ</a></li>
+							<li><a href="#whatIsIpV6">ЧТО ТАКОЕ</a></li>
+							<li><a href="#plan">ТАРИФЫ</a></li>
+							<li><a href="#faq">FAQ</a></li>
+							<li><a href="#contacts">КОНТАКТЫ</a></li>
 						</ul>
 					</div>
 				</div>
@@ -70,7 +72,7 @@
 								<p>В настоящее время протокол IPv6 уже используется в нескольких тысячах сетей по всему миру (более 14000 сетей на осень 2013), но пока ещё не получил столь широкого распространения в Интернете, как IPv4. На конец 2012 года доля IPv6 в сетевом трафике составляла около 1 %[1]. К концу 2013 года ожидался рост до 3 %[2]. В России коммерческое использование операторами связи невелико (не более 1 % трафика). DNS-серверы многих российских регистраторов доменов и провайдеров хостинга используют IPv6.</p>
 							</div>
 							<div class="button">
-								<a href="#">Купить</a>
+								<a href="#" id="buyNow">Купить</a>
 							</div>
 							<div class="mouse">
 							</div>
@@ -127,6 +129,7 @@
 <!-- start  SECTION 3 -->
 	
 	<section class="whatIs">
+		<a id="whatIsIpV6"></a>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-6 col-xs-12">
@@ -143,6 +146,9 @@
 		</div>
 		
 	</section>
+	<div class="lineDegree">
+		
+	</div>
 
 <!-- end SECTION 3 -->
 
@@ -173,6 +179,7 @@
 <!-- start  SECTION 5 -->
 
 	<section class="price">
+		<a id="plan"></a>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12">
@@ -235,6 +242,7 @@
 <!-- start  SECTION 6 -->
 
 	<section class="faq">
+		<a id="faq"></a>
 		<div class="container-fluid">
 			<div class="col-xs-12">
 				<h1>faq</h1>
@@ -269,25 +277,50 @@
 
 <!-- start  SECTION 7 -->
 	<section class="form">
+		<a id="contacts"></a>
 		<div class="contacts">
 			<div class="container-fluid">
 				<div class="col-md-8 col-sm-12">
 					<div class="contact_form">
 						<h1>Форма</h1>
-						<input type="text">
-						<input type="text">
-						<input type="text">
-						<div class="button">
-							<a href="#">Отправить</a>
+						<div class="border">
+							<input type="text" placeholder="Имя">
+							<input type="text" placeholder="Контакты">
+							<textarea name="message" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+							<div class="button">
+								<a href="#">Отправить</a>
+							</div>
 						</div>
 					</div>
 					
 				</div>
-				<div class="col-md-4 col-sm-12"></div>
+				<div class="col-md-4 col-sm-12 contacts_phone">
+					<p class="bold">Контактная информация:</p>
+					<p>E-mail: <span class="underline">support@proxyseller.ru</span></p>
+					<p>Skype: proxyseller.ru</p>
+					<p>ICQ: 310-040</p>
+				</div>
 			</div>
 		</div>
 		<div class="footer">
-			
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2 col-xs-12">
+						<p>©2015 “Proxy Seller”<br>Все права защищены.</p>
+					</div>
+					<div class="col-sm-1 col-sm-offset-2 col-xs-12 goUp">
+						<a href="#top"><img src="img/section_7-up.png" alt=""></a>
+					</div>
+					<div class="col-sm-5 col-sm-offset-2 col-xs-12 logos">
+						<a href="#"><img src="img/section_7-footer_logo6.png" alt=""></a>
+						<a href="#"><img src="img/section_7-footer_logo5.png" alt=""></a>
+						<a href="#"><img src="img/section_7-footer_logo4.png" alt=""></a>
+						<a href="#"><img src="img/section_7-footer_logo3.png" alt=""></a>
+						<a href="#"><img src="img/section_7-footer_logo2.png" alt=""></a>
+						<a href="#"><img src="img/section_7-footer_logo1.png" alt=""></a>
+					</div>
+				</div>
+			</div>
 		</div>
 		
 	</section>
@@ -296,6 +329,24 @@
 
 <!-- end SECTION 7 -->
 
+	</div>
+
+	<div class="popUp" id="popUp1">
+		<div class="popUpContent">
+			<div class="container-fluid box">
+				<span><a href="#" id="popUpClose">X</a></span>
+				<h1>Форма заказа</h1>
+				<input type="text" placeholder="Имя">
+				<input type="text" placeholder="К-во">
+				<input type="text" id="landing" class="arrow">
+				<input type="text" placeholder="Цель использования">
+				<input type="text" id="authorization" class="arrow">
+				<input type="text" id="payment" class="arrow">
+				<div class="button">
+					<a href="#">Отправить</a>
+				</div>
+			</div>
+		</div>
 	</div>
 
 
@@ -318,7 +369,8 @@
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
 
-	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="libs/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
 
 	<script src="js/common.js"></script>
 	

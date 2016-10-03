@@ -1,17 +1,17 @@
 *::-webkit-input-placeholder {
-	color: #666;
+	color: #fff;
 	opacity: 1;
 }
 *:-moz-placeholder {
-	color: #666;
+	color: #fff;
 	opacity: 1;
 }
 *::-moz-placeholder {
-	color: #666;
+	color: #fff;
 	opacity: 1;
 }
 *:-ms-input-placeholder {
-	color: #666;
+	color: #fff;
 	opacity: 1;
 }
 
@@ -53,6 +53,10 @@ p {
 .bold {
 	font-family: "MyriadProBold";
 }
+.underline {
+	text-decoration: underline;
+	cursor: pointer;
+}
 /*ul {
 	list-style-image: url(../img/section_2-li.png);
 	top: 12px;
@@ -80,24 +84,18 @@ ul li {
 }
 .button:hover {
 	background: url(../img/section_1-button.png) no-repeat center center;
-	-webkit-transition: all 1s;
-	-o-transition: all 1s;
 	transition: all 1s;
 }
 .button a {
 	display: block;
 	position: relative;
 	top: 50%;
-	-webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+ transform: translateY(-50%);
 	text-align: center;
 	color: rgba(255,255,255, 1);
 	font-family: "RobotoBlack";
 	font-size: 30px;
 	line-height: 50px;
-	-webkit-transition: all 1s;
-	-o-transition: all 1s;
 	transition: all 1s;
 }
 .button a:hover {
@@ -154,8 +152,6 @@ section.top .nav ul li a {
 	text-transform: uppercase;
 	color: #fff;
 	padding: 10px 13px;
-	-webkit-transition: all 1s;
-	-o-transition: all 1s;
 	transition: all 1s;
 	border: 2px solid rgba(255, 255, 255, 0.0);
 	border-radius: 19px;
@@ -216,8 +212,6 @@ section.top .hero_section .mouse {
 	width: 30px;
 	height: 44px;
 	opacity: 0.5;
-	-webkit-transition: all 1s;
-	-o-transition: all 1s;
 	transition: all 1s;
 }
 section.top .hero_section .mouse:hover {
@@ -267,6 +261,28 @@ section.whatIs ul li {
 	margin-bottom: 40px;
 	color: #fff;
 }
+
+/*.lineDegree {
+	position: relative;
+	height: 450px;
+	display: block;
+	width: 100%;
+	background: #fff;
+	transform: skewY(-13deg);
+	margin-top: -230px;
+}
+.lineDegree:before {
+  	background: rgba(0, 0, 0, 0) url("../img/section_3-half.png") no-repeat scroll 910px -8px;
+    content: "";
+    display: block;
+    height: 100%;
+    line-height: 147px;
+    position: relative;
+    transform: skewY(13deg);
+    width: 100%;
+    z-index: -1;
+}*/
+
 
 /*******   SECTION  4  *******/
 section.whoNeeds {
@@ -383,7 +399,7 @@ section.faq .blockOfText {
 	position: relative;
 }
 
-p.bold {
+section.faq p.bold {
 	background: #fff;
 	text-align: center;
 	z-index: 1000;
@@ -398,18 +414,19 @@ p.bold {
 
 /*******   SECTION  7  *******/
 section.form {
-	background: url(../img/section_7-background.jpg) no-repeat top center;
+	background: url(../img/section_7-background.jpg) no-repeat top center #000;
 	padding-top: 70px;
 }
 section.form .contacts .contact_form {
-	padding: 50px 20px 40px 20px;
 	max-width: 726px;
+	margin-bottom: 50px;
 }
 section.form .contacts .contact_form h1 {
 	margin-bottom: 25px;
 	text-align: center;
 }
-section.form .contacts input {
+section.form .contacts input,
+section.form .contacts textarea {
 	width: 100%;
 	height: 45px;
 	display: block;
@@ -424,10 +441,183 @@ section.form .contacts input {
 	line-height: 22px;
 	padding-left: 12px;
 	padding-right: 12px;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
-section.form .contacts input:focus {
+section.form .contacts input:focus,
+section.form .contacts textarea:focus {
+	border: 1px solid #5392e6;
+}
+section.form .contacts textarea {
+	height: 80px;
+	resize: none;
+	padding-top: 10px;
+}
+
+section.form .contacts .contact_form h1 {
+	/*padding-bottom: 20px;*/
+	background: black;
+	z-index: 100;
+	position: relative;
+	max-width: 330px;
+	margin: 0 auto;
+	line-height: 72px;
+}
+section.form .contacts .contact_form h1:before {
+	content: "";
+	display: block;
+	position: absolute;
+	background: url("../img/section_7-before.png") 5px 5px no-repeat;
+	width: 335px;
+	height: 90px;
+}
+
+section.form .contacts .contact_form .border {
+	border: 5px solid white;
+	z-index: 10;
+	position: relative;
+	margin-top: -37px;
+    padding: 70px 40px 40px;
+}
+section.form .contacts .contact_form .button {
+	max-width: 700px;
+	background: rgba(0, 0, 0, 0) url("../img/section_7-button.png") no-repeat scroll center center;
+}
+section.form .contacts_phone {
+	margin-top: 29px;
+}
+section.form .contacts_phone p {
+	line-height: 30px;
+}
+section.form .footer {
+	padding-bottom: 30px;
+}
+section.form .footer p {
+	opacity: 0.5;
+	color: #abb7c3;
+	font-size: 11px;
+	line-height: 16px;
+}
+section.form .footer .logos a {
+	float: right;
+	display: block;
+	margin-left: 14px;
+}
+section.form .footer .goUp a {
+	float: right;
+	display: block;
+	margin-left: 14px;
+}
+
+/******* popUp *********/
+
+.popUp {
+	width: 100%;
+	height: 2000px;
+	background-color: rgba(0,0,0,0.5);
+	overflow:hidden;
+    position:fixed;
+    top:0px;
+}
+.popUp .popUpContent {
+	 margin:40px auto 0px auto;
+}
+.popUp .popUpContent .container-fluid {
+	max-width: 612px;
+	padding: 26px 20px 0px;
+	background: #fff;
+	border-top-right-radius: 16px;
+	border-top-left-radius: 16px;
+}
+.popUp .popUpContent h1 {
+	color: #5292e6;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.popUp .popUpContent input,
+.popUp .popUpContent select {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	height: 45px;
+	background-color: rgba(255, 255, 255, 0.1);
+	border: 1px solid #c9c9c9;
+	border-radius: 15px;
+	transition: all 0.5s;
+	padding-left: 18px;
+	color: #000;
+}
+.popUp .popUpContent select {
+	-webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -ms-appearance: none;
+  appearance: none!important;
+  background-image: url('../img/popArrow.png');
+  background-repeat: no-repeat;
+  background-position: 97.5% 50%;
+}
+.popUp .popUpContent .arrow {
+	-webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -ms-appearance: none;
+  appearance: none!important;
+  background-image: url('../img/popArrow.png');
+  background-repeat: no-repeat;
+  background-position: 97.5% 50%;
+}
+.popUp .popUpContent select option {
+width:150px;
+    border:1px solid red;
+    -webkit-border-top-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -moz-border-radius-topright: 15px;
+    -moz-border-radius-bottomright: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding:2px;
+}
+ul.ui-autocomplete li {
+	background: none;
+	padding-left: 0px;
+}
+ul.ui-autocomplete {
+	border-radius: 15px;
+}
+ul.ui-autocomplete li;focus {
+	border-radius: 15px;
+}
+.popUp .popUpContent .button {
+	margin: 40px auto;
+}
+
+
+/*ul li {
+	font-family: "MyriadPro";
+	background: rgba(0, 0, 0, 0) url("../img/section_2-li.png") no-repeat scroll 0 11px;
+	padding-left: 40px;
+	font-size: 16px;
+	line-height: 22px;
+	list-style-type: none;
+}*/
+.popUp .popUpContent *::-webkit-input-placeholder {
+	color: #000;
+	opacity: 1;
+}
+.popUp .popUpContent *:-moz-placeholder {
+	color: #000;
+	opacity: 1;
+}
+.popUp .popUpContent *::-moz-placeholder {
+	color: #000;
+	opacity: 1;
+}
+.popUp .popUpContent *:-ms-input-placeholder {
+	color: #000;
+	opacity: 1;
+}
+
+.popUp .popUpContent input:focus,
+.popUp .popUpContent select:focus {
 	border: 1px solid #5392e6;
 }

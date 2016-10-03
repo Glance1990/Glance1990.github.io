@@ -60,9 +60,78 @@ section.top .hero_section .button {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+h1 {
+    font-size: 35px;
+    line-height: 37px;
+}
 section.advantage {
 	padding: 25px 0px;
 }
+section.whatIs {
+    background: rgba(0, 0, 0, 1);
+    min-height: 1000px;
+}
+.lineDegree {
+	background: #fff none repeat scroll 0 0;
+    display: block;
+    height: 300px;
+    margin-top: -300px;
+    position: relative;
+    transform: skew(-70deg);
+    width: 100%;
+    margin-top: -150px;
+}
+section.whoNeeds .ship {
+    background: rgba(0, 0, 0, 0);
+}
+section.whoNeeds {
+    background: rgba(0, 0, 0, 0);
+    margin-top: -310px;
+    padding-top: 200px;
+}
+section.price {
+    margin-top: -110px;
+}
+section.price .priseVariations .price_block {
+    max-width: 286px;
+}
+section.price .priseVariations .price_block {
+    background: rgba(0, 0, 0, 0);
+    border: 5px solid #fff;
+    margin-bottom: 20px;
+}
+section.price .price_block h1::before {
+    background: rgba(0, 0, 0, 0);
+}
+.button {
+    max-width: 250px;
+}
+
+section.faq .blockOfText {
+	border-left: 5px solid #024569;
+	border-right: 5px solid #024569;
+	border-bottom: 5px solid #024569;
+    border-top: none;
+}
+section.faq p.bold {
+    position: relative;
+    left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+section.form .contacts .contact_form h1 {
+    z-index: 0;
+}
+section.form .contacts .contact_form h1::before {
+    background: rgba(0, 0, 0, 0);
+}
+section.form .contacts .contact_form .border {
+   margin-top: -73px;
+   padding-top: 73px;
+}
+
+
+
 }
 
 
