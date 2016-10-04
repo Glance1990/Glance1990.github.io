@@ -29,7 +29,7 @@ $(document).ready(function () {
 
     popUpHide();
 
-    $("#buyNow").on("click", popUpShow);
+    $(".buyNow").on("click", popUpShow);
 
     $("#popUpClose").on("click", popUpHide);
 
