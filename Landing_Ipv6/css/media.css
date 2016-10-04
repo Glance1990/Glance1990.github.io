@@ -1,8 +1,15 @@
 /*==========  Desktop First Method  ==========*/
 
+
+@media only screen and (max-width : 1400px) {
+	section.whoNeeds .ship {
+    background: rgba(0, 0, 0, 0) url("../img/section_4-ship.png") no-repeat scroll 20px 0;
+   }
+}
+
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
 }
 
 /* Medium Devices, Desktops */
@@ -10,6 +17,9 @@
 	section.top .nav ul {
 	float: right;
 	}
+	section.whoNeeds .ship {
+    background: rgba(0, 0, 0, 0) url("../img/section_4-ship.png") no-repeat scroll 16px 0 / 57% auto;
+}
 
 }
 
@@ -25,6 +35,32 @@
 	margin: 0 auto;
 	max-width: 383px;
 	}
+	section.whoNeeds .ship {
+    background: none;
+}
+section.whoNeeds {
+    padding-top: 346px;
+}
+section.price {
+    margin-top: -100px;
+}
+section.price .price_block {
+    margin: 10px auto 0;
+}
+section.faq .blockOfText {
+	border-left: 5px solid #024569;
+	border-right: 5px solid #024569;
+	border-bottom: 5px solid #024569;
+    border-top: none;
+}
+section.faq p.bold {
+    position: relative;
+    left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
 }
 
 /* Extra Small Devices, Phones */
@@ -128,6 +164,9 @@ section.form .contacts .contact_form h1::before {
 section.form .contacts .contact_form .border {
    margin-top: -73px;
    padding-top: 73px;
+}
+section.form .footer p {
+    text-align: center;
 }
 
 
