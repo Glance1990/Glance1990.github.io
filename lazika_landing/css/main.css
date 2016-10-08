@@ -1,0 +1,545 @@
+*::-webkit-input-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+.hidden {
+	display: none;
+}
+p {
+	font-family: "PalatinoLinotypeItalic";
+	font-size: 20px;
+	text-align: center;
+}
+
+.wrap {
+	max-width: 1750px;
+	margin: 0 auto;
+}
+h2 {
+	text-align: center;
+	color: #a84a3e;
+	font-family: "PalatinoLinotypeItalic";
+	font-size: 40px;
+	font-style: italic;
+	line-height: 22px;
+
+}
+span.symbol {
+	background: url(../img/Section_2_symbol.png) no-repeat center center;
+	width: 51px;
+	height: 12px;
+	margin: 29px auto 27px;
+	position: relative;
+	display: block;
+}
+
+
+/**  Section 1  **/
+
+section.header {
+	background: url(../img/Section_1_Hero-img-1.jpg) no-repeat top center;
+	padding-top: 48px;
+	padding-bottom: 64px;
+	min-height: 937px;
+}
+
+section.header nav a {
+	color: #fff;
+	font-family: "LucidaSansUnicodeRegular";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	text-transform: uppercase;
+	padding: 12px 26px;
+	transition: all 0.5s ease;
+}
+section.header nav a:hover {
+	text-decoration: none;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+section.header .logo {
+	margin-top: 147px;
+	margin-bottom: 47px;
+	text-align: center;
+}
+section.header .links {
+	text-align: center;
+}
+section.header .links a {
+	margin-right: 17px;
+	margin-bottom: 180px;
+}
+section.header .arrow {
+	margin-top: 110px;
+	text-align: center;
+}
+section.header .arrow a {
+	display: block;
+	margin: 0 auto;
+	height: 100px;
+	width: 100px;
+	border: 3px solid white;
+	border-radius: 10px;
+	transform: rotate(45deg);
+	position: relative;
+}
+section.header .arrow a:before {
+	content: "";
+	background: url(../img/Section_1_arrow-icon.png) no-repeat 1px 1px;
+	width: 80px;
+	height: 80px;
+	color: #fff;
+	position: absolute;
+	transform: rotate(-45deg);
+}
+
+/**  Section 2  **/
+
+section.about {
+	padding-top: 93px;
+	padding-bottom: 128px;
+}
+section.about span.symbol {
+	background: url(../img/Section_2_symbol.png) no-repeat center center;
+	width: 51px;
+	height: 12px;
+	margin: 29px auto 27px;
+	position: relative;
+	display: block;
+}
+
+section.about .first_line {
+	color: #020202;
+	font-family: "Times  New  Roman";
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 30px;
+	font-style: italic;
+	display: block;
+	max-width: 965px;
+	margin: 0 auto 30px;
+}
+section.about .second_line {
+	color: #666;
+	font-family: "Times  New  Roman";
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	font-style: italic;
+	display: block;
+	max-width: 1070px;
+	margin: 0 auto;
+}
+section.about .rombs {
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+section.about .romb {
+	width: 240px;
+	height: 240px;
+	border: 3px solid #262626;
+	transform: rotate(45deg);
+	display: block;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+section.about .romb1:before {
+	background: rgba(0, 0, 0, 0) url("../img/Section_2_Meat.png") no-repeat scroll 84px 90px;
+    color: #fff;
+    content: "";
+    height: 236px;
+    position: absolute;
+    transform: rotate(-45deg);
+    width: 200px;
+}
+section.about .romb2:before {
+	background: rgba(0, 0, 0, 0) url("../img/Section_2_Soop.png") no-repeat scroll 68px 54px;
+    color: #fff;
+    content: "";
+    height: 250px;
+    position: absolute;
+    transform: rotate(-45deg);
+    width: 200px;
+}
+section.about .romb3:before {
+	background: rgba(0, 0, 0, 0) url("../img/Section_2_Mug.png") no-repeat scroll 71px 73px;
+    color: #fff;
+    content: "";
+    height: 236px;
+    position: absolute;
+    transform: rotate(-45deg);
+    width: 200px;
+}
+section.about .wraper {
+	margin: 0 auto 120px;
+	max-width: 1220px;
+}
+
+section.about .content-box {
+	width: 100%;
+}
+section.about .content-box__elements_left_half {
+	width: 44%;
+	vertical-align: top;
+	margin-right: 5px;
+}
+section.about .content-box__elements_right_half {
+	width: 55%;
+	vertical-align: top;
+}
+
+section.about .content-box__elements_left_half,
+section.about .content-box__elements_right_half {
+	display: inline-block;
+	height: 460px;
+}
+
+section.about .content-box__elements_right_half-top .element__top_left,
+section.about .content-box__elements_right_half-top .element__top_right  {
+	display: inline-block;
+}
+section.about .content-box__elements_right_half-top {
+	margin-bottom: 9px;
+}
+section.about .content-box__elements_right_half-top .element__top_left {
+	margin-right: 7px;
+}
+
+section.about .element__top_left,
+section.about .element__top_right {
+	height: 238px;
+}
+
+section.about .menu-food span.round {
+	display: block;
+	width: 123px;
+	height: 123px;
+	-moz-border-radius: 60px;
+	-webkit-border-radius: 60px;
+	border-radius: 60px;
+	border: 3px solid #262626;
+	margin: 0 auto;
+	transition: all 1s ease;
+}
+section.about .menu-food span.meat {
+	background: url(../img/Section_2_icon-chiken.png) no-repeat center center;
+
+}
+section.about .menu-food span.salad {
+	background: url(../img/Section_2_icon-salad.svg) no-repeat center center;
+	background-size: 50%;
+}
+section.about .menu-food span.drink {
+	background: url(../img/Section_2_icon-drink.png) no-repeat center center;
+}
+section.about .menu-food span.beer {
+	background: url(../img/Section_2_icon-beer.png) no-repeat center center;
+}
+section.about .menu-food span:hover {
+	background-color: #a84a3e;
+}
+section.about .menu-food .active {
+	background-color: #a84a3e !important;
+
+}
+
+
+section.about .menu-food .variation {
+	margin-bottom: 112px;
+}
+section.about .menu-food .menu-item-img,
+section.about .menu-food .menu-item-text {
+	display: inline-block;
+	margin-bottom:50px;
+}
+section.about .menu-food .menu-item-img {
+	max-width: 161px;
+}
+section.about .menu-food .menu-item-text {
+	vertical-align: top;
+	padding-top: 29px;
+	margin-left: 30px;
+}
+section.about .menu-food .menu-item-text h3 {
+	color: black;
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 22px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+section.about .menu-food .menu-item-text .small {
+	color: #818181;
+	font-family: "Times  New  Roman";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+section.about .menu-food .menu-item-text .price {
+	color: #a84a3e;
+	font-family: "Times  New  Roman";
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 22px;
+	margin-top: 20px;
+}
+section.about input {
+	display: none;
+}
+#showNone {
+	display: none;
+}
+.button_block .button {
+	text-align: center;
+	border: 3px solid #262626;
+	border-radius: 10px;
+	color: #222;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 22px;
+	text-transform: uppercase;
+	padding: 23px 32px;
+	display: block;
+	width: 176px;
+	vertical-align: middle;
+	margin: 20px auto 0px;
+}
+
+/**  Section 3  **/
+
+section.reservation {
+	background: url(../img/Section_3_background.jpg) no-repeat top center;
+	background-size: 1750px;
+	padding: 70px 0 90px;
+}
+section.reservation .container .text h2 {
+	color: white;
+	font-family: "PinyonScriptRegular";
+	font-size: 90px;
+	font-weight: 400;
+	line-height: 22px;
+	margin-bottom: 29px;
+}
+section.reservation .container .text .small {
+	color: #fffefe;
+	font-family: "PalatinoLinotypeItalic";
+	font-size: 18px;
+	font-style: italic;
+	line-height: 24px;
+}
+section.reservation .container .block_phone {
+	margin: 64px auto 40px;
+	max-width: 580px;
+	position: relative;
+}
+section.reservation .container .phonesWithSpan {
+	color: white;
+	font-family: "Times  New  Roman";
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 22px;
+	text-transform: uppercase;
+	display: inline-block;
+	position: relative;
+	top: -60px;
+}
+section.reservation .container .phone {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	background: url(../img/Section_3_icon-phone.png) no-repeat center center #a84a3e;
+	margin: 0 40px;
+}
+section.reservation .container input {
+	width: 100%;
+	height: 59px;
+	border: 1px solid rgba(255, 255, 255, 0.54);
+	border-radius: 10px;
+	background: none;
+	color: white;
+	font-family: "Times  New  Roman";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	padding: 0 26px;
+}
+input#time {
+	background: url(../img/Section_3_icon-clock.png) no-repeat 94.5% 50%;
+}
+input#date {
+	background: url(../img/Section_3_icon-calendar.png) no-repeat 94.5% 50%;
+}
+section.reservation .container .row .button {
+	border: 3px solid #a84a3e;
+	border-radius: 10px;
+	min-height: 56px;
+	max-width: 176px;
+	margin: 67px auto 0;
+}
+section.reservation .container .row .button a {
+	color: white;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	text-transform: uppercase;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	top: 14px;
+}
+
+
+/**  Section 4  **/
+
+section.promo {
+	padding: 105px 204px;
+}
+section.promo h2 {
+	margin-bottom: 38px;
+}
+section.promo h6 {
+	color: #818181;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	font-variant: small-caps;
+	text-align: center;
+	margin-bottom: 130px;
+}
+section.promo .promo_block img {
+	margin-bottom: 40px;
+	margin-top: 10px;
+}
+section.promo .promo_block h3 {
+	color: black;
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 22px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 28px;
+}
+section.promo .promo_block p {
+	color: #818181;
+	font-family: "Times  New  Roman";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+section.promo .promo_block.down {
+	margin-top: 114px;
+}
+
+/**  Section 5  **/
+section.map {
+	background: url(../img/map.png) no-repeat center center;
+	background-size: 1750px;
+	height: 427px;
+}
+section.map .romb {
+	width: 130px;
+	height: 130px;
+	background-color: #a84a3e;
+	margin: 0 auto;
+	transform: rotate(45deg);
+	border-radius: 10px;
+	position: relative;
+	top: -64px;
+}
+section.map .romb:after {
+	background: rgba(0, 0, 0, 0) url("../img/Section_5_icon-map.png") no-repeat scroll center center;
+    border-radius: 10px;
+    content: "";
+    height: 32px;
+    left: 35%;
+    position: absolute;
+    top: 37%;
+    transform: rotate(-45deg);
+    width: 36px;
+}
+section.map .tip {
+	padding: 27px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 21px rgba(0, 0, 0, 0.13);
+	max-width: 370px;
+	position: relative;
+	left: 70%;
+}
+section.map .tip h4 {
+	color: black;
+	font-family: Arial;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 22px;
+	text-transform: uppercase;
+	text-align: center;
+}
+section.map .tip p {
+	color: #818181;
+	font-family: "Times  New  Roman";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+/**  Section 6  **/
+
+footer {
+	padding: 80px 0;
+}
+footer nav {
+	margin-bottom: 55px;
+}
+footer nav a {
+	color: transparent;
+	font-family: "Times  New  Roman";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #282828;
+	transition: all 1s ease;
+}
+footer nav a:hover {
+	color: #a84a3e;
+	text-decoration: none;
+}
+footer .links {
+	text-align: center;
+}
+footer .links a {
+	padding-left: 16px;
+}
+
+/**  Section 7  **/

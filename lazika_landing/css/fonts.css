@@ -1,0 +1,45 @@
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+			 url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Angelface";
+	src: url("../fonts/Angelface/Angelface.eot");
+	src: url("../fonts/Angelface/Angelface.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Angelface/Angelface.woff") format("woff"),
+			 url("../fonts/Angelface/Angelface.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PinyonScriptRegular";
+	src: url("../fonts/PinyonScriptRegular/PinyonScriptRegular.eot");
+	src: url("../fonts/PinyonScriptRegular/PinyonScriptRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/PinyonScriptRegular/PinyonScriptRegular.woff") format("woff"),
+			 url("../fonts/PinyonScriptRegular/PinyonScriptRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "LucidaSansUnicodeRegular";
+	src: url("../fonts/LucidaSansUnicodeRegular/LucidaSansUnicodeRegular.eot");
+	src: url("../fonts/LucidaSansUnicodeRegular/LucidaSansUnicodeRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/LucidaSansUnicodeRegular/LucidaSansUnicodeRegular.woff") format("woff"),
+			 url("../fonts/LucidaSansUnicodeRegular/LucidaSansUnicodeRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PalatinoLinotypeItalic";
+	src: url("../fonts/PalatinoLinotypeItalic/PalatinoLinotypeItalic.eot");
+	src: url("../fonts/PalatinoLinotypeItalic/PalatinoLinotypeItalic.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/PalatinoLinotypeItalic/PalatinoLinotypeItalic.woff") format("woff"),
+			 url("../fonts/PalatinoLinotypeItalic/PalatinoLinotypeItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
