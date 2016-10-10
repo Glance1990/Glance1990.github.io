@@ -112,4 +112,4 @@ function smoothScroll(duration) {
         });
     }
 
-
+$("#myCarousel").carousel("pause");
