@@ -1,78 +1,151 @@
 /*==========  Desktop First Method  ==========*/
-
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-	
-}
-@media only screen and (max-width : 1100px) {
-	section.about .content-box__elements_left_half,
-	section.about .content-box__elements_right_half {
-	display: block;
-	height: 100%;
-}
-}
 
+@media only screen and (max-width: 1200px) {} @media only screen and (max-width: 1100px) {
+  /*  section.about .content-box__elements_left_half,
+    section.about .content-box__elements_right_half {
+        display: block;
+        height: 100%;
+    }*/
+}
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-	.wrap .header div#myCarousel {
-		top: -22px;
-	}
-	.arrow {
-		display: none;
-	}
-	.about .romb_column {
-    margin: 0 auto 100px;
-}
-}
 
+@media only screen and (max-width: 992px) {
+    .wrap .header div#myCarousel {
+        top: -22px;
+    }
+    .arrow {
+        display: none;
+    }
+    .about .romb_column {
+        margin: 0 auto 100px;
+    }
+    section.map .tip {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 10px;
+    box-shadow: 0 0 21px rgba(0, 0, 0, 0.13);
+    left: 30%;
+    max-width: 370px;
+    padding: 27px;
+    position: relative;
+    top: 29%;
+}
+}
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-.about .romb_column {
-    margin: 0 auto 100px;
-}
 
+@media only screen and (max-width: 768px) {
+    .about .romb_column {
+        margin: 0 auto 100px;
+    }
+    
 }
-
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-	.wrap {
-		max-width: 100%;
-		margin: -44px auto 0;
-	}
-	section.about {
-	padding-top: 0px;
+@media only screen and (max-width: 700px) {
+    section.about .wraper {
+    max-height: 250px;
+    margin: 0 auto 60px;
+}
+.wraper .element__top .element__top_right {
+    height: 100%;
+    width: 69%;
+}
+.wraper .content-box__elements_left_half {
+    margin-right: 5px;
+    vertical-align: top;
+    width: 43%;
 }
 }
 
+
+
+
+@media only screen and (max-width: 480px) {
+    .wrap {
+        max-width: 100%;
+        margin: -44px auto 0;
+    }
+    section.about {
+        padding-top: 0px;
+    }
+    section.promo h2 {
+    	line-height: 38px;
+    }
+    .wraper .element__top .element__top_left {
+    height: 100%;
+    width: 27%;
+}
+.wraper .element__top .element__top_right {
+    height: 100%;
+    width: 68%;
+}
+section.about .menu-food .menu-item-img {
+    margin: 0 70px;
+    max-width: 161px;
+}
+section.reservation .container .block_phone {
+    margin: 86px auto -15px;
+    max-width: 580px;
+    position: relative;
+}
+section.reservation .container .phonesWithSpan {
+    display: block;
+    
+}
+section.reservation .container .phone {
+    display: block;
+    height: 120px;
+    margin: -28px auto 89px;
+    width: 120px;
+}
+section.map .tip {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 10px;
+    box-shadow: 0 0 21px rgba(0, 0, 0, 0.13);
+    left: 18px;
+    max-width: 324px;
+    padding: 22px;
+    position: relative;
+    top: 120px;
+}
+section.header .navigation {
+    left: -10px;
+}
+section.header .navigation {
+    display: block;
+    left: -10px;
+    margin: 0 auto;
+    max-width: 1171px;
+    position: relative;
+    top: 50px;
+    z-index: 1000;
+}
+.carousel-indicators {
+    bottom: 28%;
+    left: 123%;
+    right: 1%;
+    width: 1%;
+}
+
+
+
+
+}
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-	
-}
 
-
+@media only screen and (max-width: 320px) {}
 /*==========  Mobile First Method  ==========*/
-
 /* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
 
-}
-
+@media only screen and (min-width: 320px) {}
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
 
-}
-
+@media only screen and (min-width: 480px) {}
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-	
-}
 
+@media only screen and (min-width: 768px) {}
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
 
-}
-
+@media only screen and (min-width: 992px) {}
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
 
-}
+@media only screen and (min-width: 1200px) {}
