@@ -43,12 +43,9 @@ span.symbol {
     margin: 29px auto 27px;
     position: relative;
     display: block;
-<<<<<<< HEAD
 }
 .clear {
     clear: both;
-=======
->>>>>>> 6f49dc53a7609b84e69b3c848be8bc8142f0d349
 }
 /** carousel    **/
 
@@ -298,7 +295,6 @@ section.about .romb3:before {
 section.about .wraper {
     margin: 0 auto 120px;
     max-width: 1220px;
-<<<<<<< HEAD
     max-height: 461px;
     overflow: hidden;
 }
@@ -358,38 +354,6 @@ section.about .wraper {
 }
 .wraper .element__top_left,
 .wraper .element__top_right {
-=======
-}
-section.about .content-box {
-    width: 100%;
-}
-section.about .content-box__elements_left_half {
-    width: 44%;
-    vertical-align: top;
-    margin-right: 5px;
-}
-section.about .content-box__elements_right_half {
-    width: 55%;
-    vertical-align: top;
-}
-section.about .content-box__elements_left_half,
-section.about .content-box__elements_right_half {
-    display: inline-block;
-    height: 460px;
-}
-section.about .content-box__elements_right_half-top .element__top_left,
-section.about .content-box__elements_right_half-top .element__top_right {
-    display: inline-block;
-}
-section.about .content-box__elements_right_half-top {
-    margin-bottom: 9px;
-}
-section.about .content-box__elements_right_half-top .element__top_left {
-    margin-right: 7px;
-}
-section.about .element__top_left,
-section.about .element__top_right {
->>>>>>> 6f49dc53a7609b84e69b3c848be8bc8142f0d349
     height: 238px;
 }
 section.about .menu-food span.round {
