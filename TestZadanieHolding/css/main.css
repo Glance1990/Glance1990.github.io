@@ -1,0 +1,143 @@
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 0;
+}
+*:-moz-placeholder {
+    color: #666;
+    opacity: 0;
+}
+*::-moz-placeholder {
+    color: #666;
+    opacity: 0;
+}
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 0;
+}
+.clear {
+    clear: both;
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {} body input:required:valid,
+body textarea:required:valid {} .wraper {
+    padding: 0 10px;
+}
+.red {
+    color: red;
+}
+.popup h1 {
+    font-family: 'BauhausFont';
+    font-size: 25px;
+    margin-bottom: 14px;
+    position: relative;
+}
+.borderTop {
+    background: rgba(0, 0, 0, 0) url("../img/topBorder.png") no-repeat scroll 1px 1px;
+    display: block;
+    height: 50px;
+    left: 37px;
+    position: absolute;
+    top: 39px;
+    width: 40px;
+}
+.hidden {
+    display: none;
+}
+.popup {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 239, 239, 0.5);
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+}
+.popupContent {
+    background: #fff;
+    border: 2px solid #cecece;
+    border-bottom-left-radius: 86px;
+    border-bottom-right-radius: 86px;
+    border-top-right-radius: 86px;
+    min-height: 381px;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+    max-width: 601px;
+    padding: 45px 25px 45px 45px;
+}
+a.register {
+    text-decoration: underline;
+    color: #0C3E0E;
+    font-size: 13px;
+}
+.dots {
+    font-size: 17px;
+    margin-top: -7px;
+    text-overflow: clip;
+    overflow: hidden;
+}
+.inputs {
+    float: right;
+    margin-top: 4px;
+    margin-bottom: 27px;
+    max-width: 424px;
+}
+.inputs label,
+.inputs input {
+    display: inline-block;
+    float: right;
+}
+label {
+    font-family: 'BauhausFont';
+    margin-right: 17px;
+}
+.email-label,
+.password-label {
+    display: block;
+    float: right;
+    max-width: 454px;
+    min-width: 395px;
+}
+.inputs input {
+    height: 31px;
+    max-width: 306px;
+    width: 100%;
+}
+.email-label {
+    margin-bottom: 25px;
+}
+.rememberMe {
+    display: inline;
+    font-family: 'BauhausFont';
+    margin-left: 10px;
+}
+p.center {
+    text-align: center;
+    font-family: 'BauhausFont';
+    font-size: 13px;
+}
+p.center input {
+    margin-right: 6px;
+}
+.forgotPass {
+    text-align: center;
+    padding-left: 83px;
+}
+.forgotPass a {
+    color: #0C3E0E;
+}
+.button {
+    background: #0C3E0E none repeat scroll 0 0;
+    bottom: -18px;
+    color: #fff;
+    display: block;
+    height: 40px;
+    left: 35.5%;
+    margin: 0 auto;
+    position: absolute;
+    width: 171px;
+    border-top-left-radius: 86px;
+    border-bottom-left-radius: 86px;
+    border-top-right-radius: 86px;
+    font-size: 18px;
+    padding: 7px 61px;
+}
