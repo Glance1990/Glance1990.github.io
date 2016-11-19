@@ -1,0 +1,9 @@
+@font-face {
+	font-family: "BauhausFont";
+	src: url("../fonts/BauhausFont/BauhausFont.eot");
+	src: url("../fonts/BauhausFont/BauhausFont.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/BauhausFont/BauhausFont.woff") format("woff"),
+			 url("../fonts/BauhausFont/BauhausFont.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
