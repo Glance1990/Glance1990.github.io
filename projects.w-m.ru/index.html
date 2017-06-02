@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+	<title>Главная</title>
+	<link rel="stylesheet" type="text/css" href="css/simple-scrollbar.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body class="loaded">
+
+							
+<!-- BEGIN BODY -->
+
+<div class="main-wrapper">
+
+<!-- BEGIN HEADER -->
+
+	<header>		
+		<div class="wrapper">
+			<a href="#" class="mobile-menu-button"></a>
+			<ul class="menu">
+				<li class="menu_item"><a href="#about-me-info" class="menu_item_link">Личная информация</a></li>
+				<li class="menu_item"><a href="#experience-info" class="menu_item_link">Опыт</a></li>
+				<li class="menu_item"><a href="#experience-js" class="menu_item_link">JavaScript</a></li>
+				<li class="menu_item"><a href="#about-proposal-info" class="menu_item_link">О себе</a></li>
+			</ul>
+		</div>
+	</header>
+	
+<!-- HEADER EOF   -->
+
+
+	<!-- BEGIN CONTENT -->
+
+	<main class="content">
+		<div class="wrapper">
+			<h1 class="main-title">Анкета</h1>
+			<form action="" class="questionnaire">
+
+				<div class="about-me-info" id="about-me-info">
+					<h2 class="section-title section-title_about-me">Личная информация</h2>
+					<div class="input-forms">
+						<div class="input-forms_item_input">
+							<input type="text" class="item_input" value="Кадыш Павел Игоревич">
+							<label for="">ФИО</label>
+						</div>
+						<div class="input-forms_item_select">
+							<select name="" id="" class="input-forms_select" placeholder="Год рождения" selected="1990">
+								<option value="year">Год рождения</option>
+								<option value="2001">2001</option>
+								<option value="2000">2000</option>
+								<option value="1999">1999</option>
+								<option value="1998">1998</option>
+								<option value="1997">1997</option>
+								<option value="1996">1996</option>
+								<option value="1995">1995</option>
+								<option value="1994">1994</option>
+								<option value="1993">1993</option>
+								<option value="1992">1992</option>
+								<option value="1991">1991</option>
+								<option value="1990" selected="selected">1990</option>
+							</select>
+						</div>
+						<div class="input-forms_item_input">
+							<input type="text" class="item_input" value="Киев">
+							<label for="">Место проживания</label>
+						</div>
+						<div class="input-forms_item_input">
+							<input type="text" class="item_input" value="fadistras">
+							<label for="">Skype</label>
+						</div>
+						<div class="input-forms_item_input">
+							<input type="text" class="item_input" value="paulkadysh@gmail.com">
+							<label for="">E-mail</label>
+						</div>
+					</div>
+				</div>
+				<div class="experience-info" id="experience-info">
+					<h2 class="section-title section-title_experience-info">Расскажите о своем опыте</h2>
+					<div class="checkboxes-form">
+						<div class="col-third">
+							<div class="checkboxes-form_item">
+								<input type="checkbox" class="checkbox_input" id="bem" checked="checked">
+								<label for="bem" class="checkbox_label">БЭМ/OOCSS</label>
+							</div>
+							<div class="checkboxes-form_item">
+								<input type="checkbox" class="checkbox_input" id="cssPrepros" checked="checked">
+								<label for="cssPrepros" class="checkbox_label">Stylus/LESS/SASS</label>
+							</div>
+							<div class="checkboxes-form_item">
+								<input type="checkbox" class="checkbox_input" id="svg" checked="checked">
+								<label for="svg" class="checkbox_label">Работаю с SVG</label>
+							</div>
+						</div>
+						<div class="col-third">
+							<div class="checkboxes-form_item">
+								<input type="checkbox" class="checkbox_input" id="semantics" checked="checked">
+								<label for="semantics" class="checkbox_label">Верстаю семантично</label>
+							</div>
+							<div class="checkboxes-form_item">
+								<input type="checkbox" class="checkbox_input" id="javascript">
+								<label for="javascript" class="checkbox_label">ES2015/ES2016</label>
+							</div>
+							<div class="checkboxes-form_item">
+								<input type="checkbox" class="checkbox_input" id="buildSystem" checked="checked">
+								<label for="buildSystem" class="checkbox_label">Gulp/GRUNT</label>
+							</div>
+						</div>
+						<div class="col-third">
+							<div class="checkboxes-form_item">
+								<input type="checkbox" class="checkbox_input" id="webpack">
+								<label for="webpack" class="checkbox_label">Webpack</label>
+							</div>
+							<div class="checkboxes-form_item">
+								<input type="checkbox" class="checkbox_input" id="jqueryFramwork" checked="checked">
+								<label for="jqueryFramwork" class="checkbox_label">jQuery</label>
+							</div>
+							<div class="checkboxes-form_item">
+								<input type="checkbox" class="checkbox_input" id="git" checked="checked">
+								<label for="git" class="checkbox_label">Ипользую Git</label>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="experience-js" id="experience-js">
+					<h2 class="section-title section-title_experience-js">Уровень владения JavaScript</h2>
+					<ul class="info-table">
+						<li class="info-table_item">Не владею</li>
+						<li class="info-table_item">Использую готовые решения</li>
+						<li class="info-table_item">Использую готовые решения и умею и переделывать</li>
+						<li class="info-table_item">Пишу сложный JS с нуля</li>
+						</ul>
+					<div class="custom-slider-wraper">
+						<div class="custom-slider" id="slider">
+							<div class="custom-slider_thumb"></div>
+						</div>
+					</div>
+					</div>
+
+
+
+				<div class="about-proposal-info" id="about-proposal-info">
+					<h2 class="section-title section-title_proposal-info">Расскажите о себе</h2>
+					<p class="info">Напишите несколько предложений, чем привлекла наша вакансия
+						и что вы ожидаете от работы у нас.</p>
+					<textarea name="about"  class="textarea" placeholder="Понравилась тем, что"></textarea>
+				</div>
+
+				<a href="#" class="form-button">Готово</a>
+
+
+			</form>
+		</div>
+	</main>
+
+	<!-- CONTENT EOF   -->
+
+
+</div>		
+
+<div class="icon-load"></div>		
+
+<!-- BODY EOF   -->
+	
+	<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>		
+	<script type="text/javascript" src="js/jquery-migrate-1.4.1.min.js" ></script>
+	<script type="text/javascript" src="js/components/jquery.formstyler.js" ></script>
+	<script type="text/javascript" src="js/components/simple-scrollbar.js" ></script>
+	<!--
+	<script type="text/javascript" src="js/components/jquery.fancybox.js" ></script>
+
+	<script type="text/javascript" src="js/components/jquery.mCustomScrollbar.js" ></script>
+
+	-->
+	<script type="text/javascript" src="js/custom.js" ></script>
+</body>
+</html>

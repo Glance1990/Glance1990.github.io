@@ -1,0 +1,113 @@
+
+/*
+================================================================================
+|                                     HEADER                                   |
+================================================================================
+*/
+header {
+	background:#fff;
+	width:100%;
+	min-width: $min-width;
+	text-align:left;
+	border-bottom: 1px solid #d9d9d9;
+	padding: 35px 0 30px;
+	margin-bottom: 118px;
+}
+header p {
+	font-family: PTSans;
+	font-size: 28px;
+}
+header .wrapper {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.menu_item_link {
+	font-family: 'roboto_light';
+	font-size: 14px;
+}
+.menu_item_link:hover {
+	color: #000000;
+	transition: $default-transition;
+}
+.mobile-menu-button {
+	height: 32px;
+	width: 32px;
+	background: pink;
+	background: url(../img/spritesheet.png) no-repeat;
+	background-position: -187px -20px;
+	display: none;
+}
+
+@media screen and (min-width: 768px) {
+	.menu {
+		display: table;
+		width: 100%;
+		padding-left: 135px;
+		padding-right: 135px;
+	}
+	.menu_item {
+		display: table-cell;
+	}
+	.menu_item:nth-child(1){
+		text-align: left;
+		width: 150px;
+	}
+	.menu_item:nth-child(2){
+		text-align: right;
+	}
+	.menu_item:nth-child(3){
+		text-align: right;
+		width: 141px;
+	}
+	.menu_item:nth-child(4){
+		text-align: right;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (min-width: 992px){
+
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 767px) {
+	header {
+		padding: 10px 0 5px;
+	}
+	.mobile-menu-button {
+		display: block;
+		margin-left: 15px;
+		margin-bottom: 10px;
+	}
+	.menu {
+		display: none;
+	}
+	.menu.open {
+		display: block;
+	}
+	.menu_item {
+		display: block;
+		width: 100%;
+		border-top: 1px solid #d9d9d9;
+		padding: 10px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.input-forms_item_input {
+		max-width: 90%;
+	}
+}
+
+
