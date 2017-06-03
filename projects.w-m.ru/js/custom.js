@@ -1,21 +1,21 @@
 $(window).load(function(){
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-        $('body').addClass('ios');
-    } else{
-        $('body').addClass('web');
-    };
-    $('body').removeClass('loaded'); 
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+		$('body').addClass('ios');
+	} else{
+		$('body').addClass('web');
+	};
+	$('body').removeClass('loaded'); 
 });
 /* viewport width */
 function viewport(){
-    var e = window, 
-        a = 'inner';
-    if ( !( 'innerWidth' in window ) )
-    {
-        a = 'client';
-        e = document.documentElement || document.body;
-    }
-    return { width : e[ a+'Width' ] , height : e[ a+'Height' ] }
+	var e = window, 
+		a = 'inner';
+	if ( !( 'innerWidth' in window ) )
+	{
+		a = 'client';
+		e = document.documentElement || document.body;
+	}
+	return { width : e[ a+'Width' ] , height : e[ a+'Height' ] }
 };
 /* viewport width */
 
@@ -25,14 +25,14 @@ $('select').styler();
 
 $(function(){
 
-    $('.button-nav').click(function(){
-        $(this).toggleClass('active'), 
-        $('.main-nav-list').slideToggle(); 
-        return false;
-    });
+	$('.button-nav').click(function(){
+		$(this).toggleClass('active'), 
+		$('.main-nav-list').slideToggle(); 
+		return false;
+	});
 
 
-    
+	
 
 });
 
@@ -142,7 +142,7 @@ function getCoords(elem) { // кроме IE8-
 
 var menuMobileButton = $('.mobile-menu-button');
 menuMobileButton.click(function () {
-    $('.menu').slideToggle();
+	$('.menu').slideToggle();
 })
 function smoothScroll(duration) {
     $('a[href^="#"]').on('click', function(event) {
