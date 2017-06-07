@@ -3,8 +3,8 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="format-detection" content="telephone=no">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
-	<title>Главная</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>TODO List App</title>
 	<link rel="stylesheet" type="text/css" href="css/simple-scrollbar.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
@@ -26,13 +26,17 @@
 	<main class="content">
 		<div class="wrapper">
 			<h2 class="title">TODO List App</h2>
+			<form class="add-items">
+				<input type="text" name="item" class="add-items_input" placeholder="+ Add a to-do..." required>
+				<input type="submit" value="+" class="add-items_button">
+			</form>
+			<div class="list_head">
+				<div class="task_number"><a href="#">task number</a></div>
+				<div class="task_name"><a href="#">task name</a></div>
+			</div>
 			<ul class="list">
 
 			</ul>
-			<form class="add-items">
-				<input type="text" name="item" class="add-items_input" placeholder="Item Name" required>
-				<input type="submit" value="+ Add Item" class="add-items_button">
-			</form>
 		</div>
 	</main>
 
@@ -41,7 +45,7 @@
 
 </div>		
 
-<div class="icon-load"></div>		
+<div class="icon-load"></div>
 
 <!-- BODY EOF   -->
 	
